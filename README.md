@@ -1,6 +1,4 @@
-/////////////////////////////////////////////////
-TANGERINE - The simple, cool looking loader icon.
-/////////////////////////////////////////////////
+# TANGERINE - The simple, cool looking loader icon.
 
 This is supposed to be fully modifiable.
 
