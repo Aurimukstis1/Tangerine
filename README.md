@@ -12,7 +12,7 @@ The loading bar code is also highly changeable, allowing for dynamic linking bet
 
 # WORK-IN-PROGRESS TRANSITION
 
-#### Example code
+### Example code
 ```
 import TANGERINE
 import time
