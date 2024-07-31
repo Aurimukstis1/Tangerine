@@ -18,6 +18,14 @@ import tangerine
 import time
 
 def main():
+
+  # now optionally you can change some values:
+  # custom_screen_width :        default = 360,
+  # custom_screen_height :       default = 480,
+  # rotation_speed_coefficient : default = 0.2,
+  # cube_size :                  default = 100.0,
+  # cube_size_coefficient :      default = 1.0
+
   tangerine.start_loading_applet()
 
   time.sleep(1)
