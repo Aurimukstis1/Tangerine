@@ -14,15 +14,15 @@ The loading bar code is also highly changeable, allowing for dynamic linking bet
 
 #### Example code
 ```
-import TANGERINE
+import tangerine
 import time
 
 def main():
-  TANGERINE.start_loading_applet()
+  tangerine.start_loading_applet()
 
   time.sleep(1)
 
-  TANGERINE.stop_loading_applet()
+  tangerine.stop_loading_applet()
 
 if __name__ == "__main__":
   main()
