@@ -11,11 +11,10 @@ import threading
 
 class MainLoop:
     def __init__(self):
+        # Init without running
         self.running: bool = False
+        # Start with no threads
         self.thread = None
-
-
-
         # Init loading starting point
         self.loading: float = 0.0
 
@@ -34,6 +33,8 @@ class MainLoop:
 
             self.thread = threading.Thread(target=self.run)
             self.thread.start()
+        else:
+            print("Loading applet already running...")
     
     def run(self):
         # Initialize Pygame
@@ -66,7 +67,7 @@ class MainLoop:
 
             # Draw text on the screen below the cube, centered
             font = pygame.font.SysFont('cambriamath', 20)
-            text = font.render('Tangerine', True, (255,255,255))
+            text = font.render('Tangerine', True, (200,200,200))
             text_rect = text.get_rect()
             text_rect.center = (self.screen_width/2, self.screen_height - 100)
 
