@@ -1,12 +1,25 @@
 # TANGERINE
 The simple pygame-based loading screen applet.
 
-This is supposed to be fully modifiable.
+This is highly modifiable.
 - Changeable screen and height in pixels;
 - Changeable rotational speed and size coefficients;
-- Changeable colors;
+- Changeable colors; *<-- not implemented yet*
 
-The loading bar code is also highly changeable, allowing for dynamic linking between another app for loading percentage.
+The loading bar code is also a variable, so it is possible to link that to some loading percentage.
+
+### To install:
+```
+git clone https://github.com/Aurimukstis1/Tangerine.git
+cd Tangerine
+pip install .
+```
+**If on Linux and it recommends to use pacman instead:**
+```
+git clone https://github.com/Aurimukstis1/Tangerine.git
+cd Tangerine
+pip install . --break-system-packages
+```
 
 *What was originally a screw-up in learning python rendering, has been turned into an interesting looking icon.*
 
