@@ -23,8 +23,6 @@ pip install . --break-system-packages
 
 *What was originally a screw-up in learning python rendering, has been turned into an interesting looking icon.*
 
-# WORK-IN-PROGRESS TRANSITION
-
 ### Example code
 ```
 import tangerine
